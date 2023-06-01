@@ -1,0 +1,27 @@
+@media screen and (max-width: 992px) {
+	.upcoming-events-item, .where-to-stay-item {
+		flex-direction: column-reverse;
+	}
+	.section-img {
+		margin-top: 40px;
+	}
+ 
+	.section-img img{
+		height: 100%;
+	}
+	.carousel {
+		margin-bottom: 50px;
+	}
+	#tips, #resources, #health-wellness{
+		width: 90% !important;
+	}
+	.form-holder .form-content{
+		padding: 0px;
+	}
+	.form-content .form-items{
+		min-width: 100% !important;
+	}
+	.form-holder{
+		display: block;
+	}
+}
